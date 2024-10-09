@@ -1,4 +1,4 @@
-def gcd(a, b):
+def nod (a, b):
     while b:
         a, b = b, a % b
     return a
@@ -6,4 +6,4 @@ def gcd(a, b):
 if __name__ == "__main__":
     num1 = int(input("Введите первое число: "))
     num2 = int(input("Введите второе число: "))
-    print(f"Наибольший общий делитель: {gcd(num1, num2)}")
+    print(f"Наибольший общий делитель: { nod (num1, num2)}"
